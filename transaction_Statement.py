@@ -152,7 +152,7 @@ def extract_transaction_data(raw_data):
     return transactions
 
 
-transactions = extract_transaction_data(extract_the_pdf_data("./transaction.pdf"))
+transactions = extract_transaction_data(extract_the_pdf_data("./tran.pdf"))
 
 # df = pd.DataFrame(transactions)
 # df.to_csv("transaction.csv", index=True)
